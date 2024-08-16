@@ -1,0 +1,13 @@
+{
+  "name": "tailwind-preset-test",
+  "version": "0.1.0",
+  "description": "Testing theme sharing through Tailwind presets.",
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "Sven Schumacher",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1",
+    "tailwindcss-animate": "^1.0.7"
+  }
+}

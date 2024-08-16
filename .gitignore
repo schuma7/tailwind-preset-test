@@ -1,0 +1,7 @@
+node_modules
+
+# VS Code Editor directories and files
+.vs
+
+# WebStorm Editor directories and files
+.idea
