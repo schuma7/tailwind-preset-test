@@ -1,6 +1,8 @@
-const theme = require('./theme.js');
+import tailwindcssAnimate from 'tailwindcss-animate';
 
-module.exports = {
+import {theme} from './theme';
+
+const tailwindPreset = {
   darkMode: ['class'],
   content: ['./src/**/*.{ts,tsx}'],
   theme: {
@@ -47,5 +49,7 @@ module.exports = {
       },
     },
   },
-  plugins: [require('tailwindcss-animate')],
+  plugins: [tailwindcssAnimate],
 };
+
+export {tailwindPreset};

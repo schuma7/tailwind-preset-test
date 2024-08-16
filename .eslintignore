@@ -1,0 +1,17 @@
+/node_modules
+/scripts
+/config
+/pnpm-lock.yaml
+/pnpm-workspace.yaml
+.DS_Store
+
+/package.json
+/tsconfig.json
+**/*.md
+**/*.d.ts
+Dockerfile
+
+.eslintrc.js
+
+/dist
+/src/api

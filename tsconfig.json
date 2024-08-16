@@ -1,0 +1,23 @@
+{
+    "extends": "./node_modules/gts/tsconfig.json",
+    "compilerOptions": {
+        "rootDir": ".",
+        "target": "ESNext",
+        "lib": ["DOM", "DOM.Iterable", "ESNext"],
+        "module": "ESNext",
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "declaration": true,
+        "outDir": "dist",
+        "moduleResolution": "Bundler",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "allowJs": false,
+        "jsx": "react-jsx",
+        "paths": {
+            "@/*": ["./*"]
+        }
+    },
+    "include": ["src"]
+}
