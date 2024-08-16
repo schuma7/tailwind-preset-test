@@ -9,5 +9,3 @@ node_modules
 .vs
 # WebStorm Editor directories and files
 .idea
-
-dist
